@@ -884,6 +884,18 @@
 		EF03EFF613E3665100BD4FF7 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = EF03EFF213E3665100BD4FF7 /* ASIDataDecompressor.m */; };
 		EF03EFF713E3665100BD4FF7 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = EF03EFF213E3665100BD4FF7 /* ASIDataDecompressor.m */; };
 		EF03EFF813E3665100BD4FF7 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = EF03EFF213E3665100BD4FF7 /* ASIDataDecompressor.m */; };
+		EF448CF813FB148E006B09DA /* ThreadingModule.m in Sources */ = {isa = PBXBuildFile; fileRef = EF448CF113FB148E006B09DA /* ThreadingModule.m */; };
+		EF448CF913FB148E006B09DA /* ThreadingModule.m in Sources */ = {isa = PBXBuildFile; fileRef = EF448CF113FB148E006B09DA /* ThreadingModule.m */; };
+		EF448CFA13FB148E006B09DA /* ThreadingModule.m in Sources */ = {isa = PBXBuildFile; fileRef = EF448CF113FB148E006B09DA /* ThreadingModule.m */; };
+		EF448CFB13FB148E006B09DA /* TiThreadingLockProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF448CF313FB148E006B09DA /* TiThreadingLockProxy.m */; };
+		EF448CFC13FB148E006B09DA /* TiThreadingLockProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF448CF313FB148E006B09DA /* TiThreadingLockProxy.m */; };
+		EF448CFD13FB148E006B09DA /* TiThreadingLockProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF448CF313FB148E006B09DA /* TiThreadingLockProxy.m */; };
+		EF448CFE13FB148E006B09DA /* TiThreadingTaskProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF448CF513FB148E006B09DA /* TiThreadingTaskProxy.m */; };
+		EF448CFF13FB148E006B09DA /* TiThreadingTaskProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF448CF513FB148E006B09DA /* TiThreadingTaskProxy.m */; };
+		EF448D0013FB148E006B09DA /* TiThreadingTaskProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF448CF513FB148E006B09DA /* TiThreadingTaskProxy.m */; };
+		EF448D0113FB148E006B09DA /* TiThreadingWorkerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF448CF713FB148E006B09DA /* TiThreadingWorkerProxy.m */; };
+		EF448D0213FB148E006B09DA /* TiThreadingWorkerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF448CF713FB148E006B09DA /* TiThreadingWorkerProxy.m */; };
+		EF448D0313FB148E006B09DA /* TiThreadingWorkerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF448CF713FB148E006B09DA /* TiThreadingWorkerProxy.m */; };
 		EF8339D313E3643C001F2A97 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8339D213E3643C001F2A97 /* ASIDownloadCache.m */; };
 		EF8339D413E3643C001F2A97 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8339D213E3643C001F2A97 /* ASIDownloadCache.m */; };
 		EF8339D513E3643C001F2A97 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8339D213E3643C001F2A97 /* ASIDownloadCache.m */; };
@@ -1483,6 +1495,14 @@
 		EF03EFF013E3665100BD4FF7 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
 		EF03EFF113E3665100BD4FF7 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
 		EF03EFF213E3665100BD4FF7 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		EF448CF013FB148E006B09DA /* ThreadingModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThreadingModule.h; path = Threading/ThreadingModule.h; sourceTree = "<group>"; };
+		EF448CF113FB148E006B09DA /* ThreadingModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThreadingModule.m; path = Threading/ThreadingModule.m; sourceTree = "<group>"; };
+		EF448CF213FB148E006B09DA /* TiThreadingLockProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiThreadingLockProxy.h; path = Threading/TiThreadingLockProxy.h; sourceTree = "<group>"; };
+		EF448CF313FB148E006B09DA /* TiThreadingLockProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiThreadingLockProxy.m; path = Threading/TiThreadingLockProxy.m; sourceTree = "<group>"; };
+		EF448CF413FB148E006B09DA /* TiThreadingTaskProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiThreadingTaskProxy.h; path = Threading/TiThreadingTaskProxy.h; sourceTree = "<group>"; };
+		EF448CF513FB148E006B09DA /* TiThreadingTaskProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiThreadingTaskProxy.m; path = Threading/TiThreadingTaskProxy.m; sourceTree = "<group>"; };
+		EF448CF613FB148E006B09DA /* TiThreadingWorkerProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiThreadingWorkerProxy.h; path = Threading/TiThreadingWorkerProxy.h; sourceTree = "<group>"; };
+		EF448CF713FB148E006B09DA /* TiThreadingWorkerProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiThreadingWorkerProxy.m; path = Threading/TiThreadingWorkerProxy.m; sourceTree = "<group>"; };
 		EF8339D113E3643C001F2A97 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
 		EF8339D213E3643C001F2A97 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
 		EF8339D713E364A0001F2A97 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
@@ -1664,6 +1684,7 @@
 		24CA8902111160BE0084E2DE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				EF448CEE13FB145C006B09DA /* Threading */,
 				24EB07D1111D420D001DC2D1 /* DOM */,
 				24CA8A09111161D60084E2DE /* Modules */,
 				24CA8A0A111161DC0084E2DE /* Utils */,
@@ -2862,6 +2883,21 @@
 			name = Stream;
 			sourceTree = "<group>";
 		};
+		EF448CEE13FB145C006B09DA /* Threading */ = {
+			isa = PBXGroup;
+			children = (
+				EF448CF013FB148E006B09DA /* ThreadingModule.h */,
+				EF448CF113FB148E006B09DA /* ThreadingModule.m */,
+				EF448CF213FB148E006B09DA /* TiThreadingLockProxy.h */,
+				EF448CF313FB148E006B09DA /* TiThreadingLockProxy.m */,
+				EF448CF413FB148E006B09DA /* TiThreadingTaskProxy.h */,
+				EF448CF513FB148E006B09DA /* TiThreadingTaskProxy.m */,
+				EF448CF613FB148E006B09DA /* TiThreadingWorkerProxy.h */,
+				EF448CF713FB148E006B09DA /* TiThreadingWorkerProxy.m */,
+			);
+			name = Threading;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -3344,6 +3380,10 @@
 				EF8339D313E3643C001F2A97 /* ASIDownloadCache.m in Sources */,
 				EF03EFF313E3665100BD4FF7 /* ASIDataCompressor.m in Sources */,
 				EF03EFF613E3665100BD4FF7 /* ASIDataDecompressor.m in Sources */,
+				EF448CF813FB148E006B09DA /* ThreadingModule.m in Sources */,
+				EF448CFB13FB148E006B09DA /* TiThreadingLockProxy.m in Sources */,
+				EF448CFE13FB148E006B09DA /* TiThreadingTaskProxy.m in Sources */,
+				EF448D0113FB148E006B09DA /* TiThreadingWorkerProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3616,6 +3656,10 @@
 				EF8339D413E3643C001F2A97 /* ASIDownloadCache.m in Sources */,
 				EF03EFF413E3665100BD4FF7 /* ASIDataCompressor.m in Sources */,
 				EF03EFF713E3665100BD4FF7 /* ASIDataDecompressor.m in Sources */,
+				EF448CF913FB148E006B09DA /* ThreadingModule.m in Sources */,
+				EF448CFC13FB148E006B09DA /* TiThreadingLockProxy.m in Sources */,
+				EF448CFF13FB148E006B09DA /* TiThreadingTaskProxy.m in Sources */,
+				EF448D0213FB148E006B09DA /* TiThreadingWorkerProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3888,6 +3932,10 @@
 				EF8339D513E3643C001F2A97 /* ASIDownloadCache.m in Sources */,
 				EF03EFF513E3665100BD4FF7 /* ASIDataCompressor.m in Sources */,
 				EF03EFF813E3665100BD4FF7 /* ASIDataDecompressor.m in Sources */,
+				EF448CFA13FB148E006B09DA /* ThreadingModule.m in Sources */,
+				EF448CFD13FB148E006B09DA /* TiThreadingLockProxy.m in Sources */,
+				EF448D0013FB148E006B09DA /* TiThreadingTaskProxy.m in Sources */,
+				EF448D0313FB148E006B09DA /* TiThreadingWorkerProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,6 @@
 // create table view data object
 var data = [
+	{title:'Threading', hasChild:true, test:'../examples/threading.js'},
 	{title:'XHR', hasChild:true, test:'../examples/xhr.js'},
 	{title:'Network', hasChild:true, test:'../examples/network.js'},
 	{title:'Common JS', hasChild:true, test:'../examples/commonjs.js'},
